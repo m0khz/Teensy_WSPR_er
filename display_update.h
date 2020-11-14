@@ -281,7 +281,7 @@ void updateDisplay(){
       tft.setTextColor(line_five_text_colour);
       // set frequency readout font size
       tft.setFont(DroidSansMono_14);
-      tft.print("GPS : Satalite no. ");
+      tft.print("GPS : Satellite no. ");
       tft.setCursor(line_five_pos_x + 205,line_five_pos_y);
       tft.print(num_sats);
 
